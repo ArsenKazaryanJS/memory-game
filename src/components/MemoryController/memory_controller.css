@@ -1,0 +1,55 @@
+.memory_controller_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    min-width: 50rem;
+    button{
+    padding: 15px;
+    height: 50px;
+    cursor: pointer;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: var(--color);
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    }
+    button:hover{
+        background-color:rgba(138, 92, 246, 0.884) ;
+    }
+   button:active{
+    transform: scale(0.9);
+
+   }
+    .moves,.time{
+        width: 250px;
+        background-color: white;
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2px;
+        border-radius: 10px;
+        p:first-child{
+            font-size: 14px;
+            color: var(--text-color);
+            letter-spacing: 1px;
+            font-weight: 500;
+
+        }
+        p{
+            font-weight: 700;
+            font-size: 22px;
+            letter-spacing: 1px;
+        }
+
+    }
+ 
+}

@@ -1,0 +1,24 @@
+.memory_game_box{
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+
+    header{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h1{
+            color: var(--color);
+            font-size: 40px;
+            letter-spacing: 1px;
+        }
+
+        p{
+            color: var(--text-color);
+            text-align: center;
+        }
+
+     
+    }
+}
